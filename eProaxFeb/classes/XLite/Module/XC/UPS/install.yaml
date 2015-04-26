@@ -1,0 +1,368 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: accessKey
+    category: XC\UPS
+    translations:
+      - code: en
+        option_name: Access key
+  - name: userID
+    category: XC\UPS
+    translations:
+      - code: en
+        option_name: User ID
+  - name: password
+    category: XC\UPS
+    translations:
+      - code: en
+        option_name: Password
+  - name: shipper_number
+    category: XC\UPS
+    translations:
+      - code: en
+        option_name: UPS Account number
+  - name: test_mode
+    category: XC\UPS
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Test mode
+  - name: packaging_type
+    category: XC\UPS
+    value: '00'
+    translations:
+      - code: en
+        option_name: Packaging type
+  - name: pickup_type
+    category: XC\UPS
+    value: '01'
+    translations:
+      - code: en
+        option_name: Pickup type
+  - name: saturday_pickup
+    category: XC\UPS
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Saturday pickup
+  - name: saturday_delivery
+    category: XC\UPS
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Saturday delivery
+  - name: additional_handling
+    category: XC\UPS
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Additional handling
+  - name: negotiated_rates
+    category: XC\UPS
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Use negotiated rates
+  - name: delivery_conf
+    category: XC\UPS
+    value: '0'
+    translations:
+      - code: en
+        option_name: Delivery confirmation
+  - name: extra_cover
+    category: XC\UPS
+    type: checkbox
+    value: N
+    translations:
+      - code: en
+        option_name: Extra cover type
+  - name: extra_cover_value
+    category: XC\UPS
+    value: 0.00
+    translations:
+      - code: en
+        option_name: Extra cover value
+  - name: currency_code
+    category: XC\UPS
+    translations:
+      - code: en
+        option_name: Shipping cost currency code
+  - name: currency_rate
+    category: XC\UPS
+    value: 1
+    translations:
+      - code: en
+        option_name: Currency rate
+  - name: width
+    category: XC\UPS
+    value: 10
+    translations:
+      - code: en
+        option_name: Package width
+  - name: length
+    category: XC\UPS
+    value: 10
+    translations:
+      - code: en
+        option_name: Package length
+  - name: height
+    category: XC\UPS
+    value: 10
+    translations:
+      - code: en
+        option_name: Package height
+  - name: debug_enabled
+    category: XC\UPS
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Log all comunications between shopping cart and UPS server
+  - name: max_weight
+    category: XC\UPS
+    value: 150
+    translations:
+      - code: en
+        option_name: Maximum package weight
+
+XLite\Model\Shipping\Method:
+  - processor: ups
+    carrier: ups
+    code: 'NDA'
+    enabled: 1
+    position: 470
+    translations:
+      - code: en
+        name: "UPS Next Day Air&reg;"
+  - processor: ups
+    carrier: ups
+    code: '2DA'
+    enabled: 1
+    position: 480
+    translations:
+      - code: en
+        name: "UPS 2nd Day Air&reg;"
+  - processor: ups
+    carrier: ups
+    code: 'GND'
+    enabled: 1
+    position: 490
+    translations:
+      - code: en
+        name: "UPS Ground"
+  - processor: ups
+    carrier: ups
+    code: 'WEXP'
+    enabled: 1
+    position: 500
+    translations:
+      - code: en
+        name: "UPS Worldwide Express"
+  - processor: ups
+    carrier: ups
+    code: 'WEXD'
+    enabled: 1
+    position: 510
+    translations:
+      - code: en
+        name: "UPS Worldwide Expedited"
+  - processor: ups
+    carrier: ups
+    code: 'STD'
+    enabled: 1
+    position: 520
+    translations:
+      - code: en
+        name: "UPS Standard"
+  - processor: ups
+    carrier: ups
+    code: '3DS'
+    enabled: 1
+    position: 530
+    translations:
+      - code: en
+        name: "UPS 3 Day Select&reg;"
+  - processor: ups
+    carrier: ups
+    code: 'NDAS'
+    enabled: 1
+    position: 540
+    translations:
+      - code: en
+        name: "UPS Next Day Air Saver&reg;"
+  - processor: ups
+    carrier: ups
+    code: 'NDAE'
+    enabled: 1
+    position: 550
+    translations:
+      - code: en
+        name: "UPS Next Day Air&reg; Early A.M."
+  - processor: ups
+    carrier: ups
+    code: 'WEXPP'
+    enabled: 1
+    position: 560
+    translations:
+      - code: en
+        name: "UPS Worldwide Express Plus"
+  - processor: ups
+    carrier: ups
+    code: '2DAAM'
+    enabled: 1
+    position: 570
+    translations:
+      - code: en
+        name: "UPS 2nd Day Air A.M.&reg;"
+  - processor: ups
+    carrier: ups
+    code: 'SAV'
+    enabled: 1
+    position: 580
+    translations:
+      - code: en
+        name: "UPS Saver"
+  - processor: ups
+    carrier: ups
+    code: 'TSTD'
+    enabled: 1
+    position: 590
+    translations:
+      - code: en
+        name: "UPS Today StandardSM"
+  - processor: ups
+    carrier: ups
+    code: 'TDC'
+    enabled: 1
+    position: 600
+    translations:
+      - code: en
+        name: "UPS Today Dedicated CourrierSM"
+  - processor: ups
+    carrier: ups
+    code: 'TI'
+    enabled: 1
+    position: 610
+    translations:
+      - code: en
+        name: "UPS Today Intercity"
+  - processor: ups
+    carrier: ups
+    code: 'TEXP'
+    enabled: 1
+    position: 620
+    translations:
+      - code: en
+        name: "UPS Today Express"
+  - processor: ups
+    carrier: ups
+    code: 'TEXPS'
+    enabled: 1
+    position: 630
+    translations:
+      - code: en
+        name: "UPS Today Express Saver"
+  - processor: ups
+    carrier: ups
+    code: 'WEXPF'
+    enabled: 1
+    position: 640
+    translations:
+      - code: en
+        name: "UPS WorldWide Express Freight"
+  - processor: ups
+    carrier: ups
+    code: 'EXP'
+    enabled: 1
+    position: 650
+    translations:
+      - code: en
+        name: "UPS Express"
+  - processor: ups
+    carrier: ups
+    code: 'EXPP'
+    enabled: 1
+    position: 660
+    translations:
+      - code: en
+        name: "UPS Express Plus"
+  - processor: ups
+    carrier: ups
+    code: 'EXDSM'
+    enabled: 1
+    position: 670
+    translations:
+      - code: en
+        name: "UPS ExpeditedSM"
+  - processor: ups
+    carrier: ups
+    code: 'WEXDSM'
+    enabled: 1
+    position: 680
+    translations:
+      - code: en
+        name: "UPS Worldwide ExpeditedSM"
+  - processor: ups
+    carrier: ups
+    code: 'WEXPSM'
+    enabled: 1
+    position: 690
+    translations:
+      - code: en
+        name: "UPS Worldwide ExpressSM"
+  - processor: ups
+    carrier: ups
+    code: 'SAVSM'
+    enabled: 1
+    position: 700
+    translations:
+      - code: en
+        name: "UPS SaverSM"
+  - processor: ups
+    carrier: ups
+    code: 'EXPEAMSM'
+    enabled: 1
+    position: 710
+    translations:
+      - code: en
+        name: "UPS Express Early A.M. SM"
+  - processor: ups
+    carrier: ups
+    code: 'NDAEAMSM'
+    enabled: 1
+    position: 720
+    translations:
+      - code: en
+        name: "UPS Next Day Air&reg; Early A.M. SM"
+  - processor: ups
+    carrier: ups
+    code: 'WEXPPSM'
+    enabled: 1
+    position: 730
+    translations:
+      - code: en
+        name: "UPS Worldwide Express PlusSM"
+
+XLite\Model\Payment\Method:
+  - service_name: COD_UPS
+    class: 'Module\XC\UPS\Model\Payment\Processor\COD'
+    added: 1
+    translations:
+      - code: en
+        name: 'Cash on Delivery (UPS)'
+
+XLite\Model\LanguageLabel:
+  - { name: 'To enable ''Cash on delivery'' payment option you should enable payment method ''Cash on delivery (UPS)'' at the _Payment methods page_', translations: [{ code: en, label: 'To enable ''Cash on delivery'' payment option you should enable payment method ''Cash on delivery (UPS)'' at the <a href="{{URL}}">Payment methods page</a>.' }] }
+

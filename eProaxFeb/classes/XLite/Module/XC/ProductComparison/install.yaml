@@ -1,0 +1,18 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Compare X products", translations: [{ code: en, label: "Compare {{count}} products" }] }
+  - { name: "X products selected", translations: [{ code: en, label: "{{count}} products selected" }] }
+  - { name: "Comparison table - X items", translations: [{ code: en, label: "Comparison table - {{count}} items" }] }
+  - { name: "X in cart", translations: [{ code: en, label: "{{count}} in cart" }] }
+  - { name: "Add other products to compare", translations: [{ code: en, label: "Add a different product to compare" }] }
+  - { name: "Clear list", translations: [{ code: en, label: "Clear list" }] }
+  - { name: "Differences only", translations: [{ code: en, label: "Differences only" }] }
+  - { name: "Add to compare", translations: [{ code: en, label: "Add to compare" }] }

@@ -1,0 +1,11 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "To enable 'Cash on delivery' payment option you should enable payment method 'Cash on delivery (UPS)' at the _Payment methods page_", translations: [{ code: en, label: "To enable 'Cash on delivery' payment option you should enable payment method 'Cash on delivery (UPS)' at the <a href=\"{{URL}}\">Payment methods page</a>." }] }

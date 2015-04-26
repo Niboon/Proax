@@ -1,0 +1,72 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+
+XLite\Model\Config:
+  - name: accessKey
+    category: ProaxIT\Purolator
+    translations:
+      - code: en
+        option_name: Access key
+  - name: accessPass
+    category: ProaxIT\Purolator
+    translations:
+      - code: en
+        option_name: Access Password
+  - name: billingAccount
+    category: ProaxIT\Purolator
+    translations:
+      - code: en
+        option_name: Purolator Billing Account number
+  - name: currency_code
+    category: ProaxIT\Purolator
+    translations:
+      - code: en
+        option_name: Shipping cost currency code
+  - name: currency_rate
+    category: ProaxIT\Purolator
+    value: 1
+    translations:
+      - code: en
+        option_name: Currency rate
+  - name: debug_enabled
+    category: ProaxIT\Purolator
+    type: checkbox
+    value: Y
+    translations:
+      - code: en
+        option_name: Log all comunications between shopping cart and Purolator server
+
+XLite\Model\Shipping\Method:
+  - processor: purolator
+    carrier: purolator
+    code: 'PurolatorGround'
+    enabled: 1
+    position: 0
+    translations:
+      - code: en
+        name: "Purolator Ground"
+  - processor: purolator
+    carrier: purolator
+    code: 'PurolatorExpress'
+    enabled: 1
+    position: 1
+    translations:
+      - code: en
+        name: "Purolator Express"
+  - processor: purolator
+    carrier: purolator
+    code: 'PurolatorExpress9AM'
+    enabled: 0
+    position: 1010
+    translations:
+      - code: en
+        name: "Purolator Express 9AM"
+  - processor: purolator
+    carrier: purolator
+    code: 'PurolatorGround9AM'
+    enabled: 0
+    position: 1030
+    translations:
+      - code: en
+        name: "Purolator Ground 9AM"

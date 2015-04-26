@@ -1,0 +1,13 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+
+XLite\Model\Config:
+  - name: number_of_fields
+    category: 'ProaxIT\QuickOrderWidget'
+    type: text
+    orderby: 100
+    value: 10
+    translations:
+      - code: en
+        option_name: 'Number of fields for quick order form'

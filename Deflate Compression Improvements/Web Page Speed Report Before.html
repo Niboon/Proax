@@ -1,0 +1,1410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0042)http://analyze.websiteoptimization.com/wso -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Web Page Speed Report - WebSiteOptimization.com</title>
+
+<script>
+    function popUpFormattedCSS(css_url) 
+        {
+        day = new Date();
+	    id = day.getTime();
+        URL="POP_formatted_CSS.php?css="+css_url
+	    eval("page = window.open(URL, 'popUp', 'toolbar=0,scrollbars=1,location=0,statusbar=1,menubar=1,resizable=1,width=640,height=480,left = 320,top = 160');");
+        page.focus();
+        }
+
+    function popUpFormattedHTML(url) 
+        {
+        day = new Date();
+	    id = day.getTime();
+        URL="POP_formatted_HTML.php?file="+url
+	    eval("page = window.open(URL, 'popUp', 'toolbar=0,scrollbars=1,location=0,statusbar=1,menubar=1,resizable=1,width=640,height=480,left = 320,top = 160');");
+        page.focus();
+        }
+
+    function popUpHeader(url) 
+        {
+        day = new Date();
+	    id = day.getTime();
+        URL="POP_show_header.php?file="+url
+	    eval("page = window.open(URL, 'popUp', 'toolbar=0,scrollbars=1,location=0,statusbar=1,menubar=1,resizable=1,width=640,height=480,left = 320,top = 160');");
+        page.focus();
+        }
+   
+</script>
+
+<style type="text/css">
+<!--
+body{font:86% verdana,arial,sans-serif;background:#fff;color:#000;margin:.5em 3em;}
+.t{font:1em verdana,arial,sans-serif;}
+h1,h2,h3,h4{color:#3f0990;}h1{font-size:1.9em;}h2{font-size:1.55em;}h3{font-size:1.3em;}h4{font-size:1.15em;}
+h5{font-size:1.05em;color:#3f0990;}h6{font-size:1em;color:#3f0990;}
+a:link{color:#00f;}a:visited{color:#309;}a:hover{color:red;}
+#l{margin:0px;padding:0px;border-bottom:3px solid #00978F;}
+.dark h1, .dark p{color:#fff;background:#66399a;margin:0;padding:0;}
+.dark h1{font-size:24px;}
+.dark p{font-size:12px;font-weight:bold;}
+.top img{display:block;}
+a.top:link{background:#66399a;color:#fff;text-decoration:none;}
+a.top:visited{background:#66399a;color:#fff;text-decoration:none;}
+a.top:hover{text-decoration:underline;}
+#n{font-size:.96em;font-weight:bold;background:#dcdcdc;color:#333;padding:2px}
+#n .but{color:#000;padding:1px 6px;text-decoration:none;}
+#n a.but{padding:1px 6px;text-decoration:none;color:#390390;} 
+#n a.but:hover{color:#eee;background:#66339a}
+#n a.act:hover,#n a.act{color:#333;background:#dcdcdc;}
+#n,#nav2, #n,#nav3{font-size:.96em;}
+#side3,#side{float:right;width:240px;margin:0 0 0 2em;padding:0px;border-left:1px solid #c0afcf;border-bottom:1px solid  #c0afcf;background:#dcdcdc;color:#000;}
+
+#side{
+	width:200px;
+	margin-top: 20px;
+	padding-top: 10px;
+	border: 1px solid #c0afcf;
+}
+
+#side h2,#side h3,#side3 h2,#side3 h3{margin-top:0;padding-top:0.5em;}
+div.bc{font-size:.96em;padding:2px 12px 0px;text-decoration:none;}
+ul, ul ul, ul ul ul{margin-top:.5em;margin-bottom:.5em;}
+.dark{background:#66399a;}.med{background:#996faf;}.light{background:#c0afcf;}.vlight{background:#dcdcdc;}.white{background:#fff;}
+#image,#side2{margin-left:25px;margin-right:25px;padding:0;}
+#side2,#image{margin-bottom:25px;}
+#nav2{margin:0 25px;padding:0;list-style:none;border-top:1px solid #c0afcf;border-bottom:1px solid #c0afcf;}
+#nav2 a:link,#nav2 a:visited{display:block;margin:1px 0;padding:3px 0;background:#9966ad;color:#fff;text-decoration:none;text-indent:6px;font-weight:bold;width:150px;}
+#nav2 a:hover{background:#dcdcdc;font-weight:bold;color:#9966ad;}
+#nav2 ul,#side2 ul {margin:0;padding:0;list-style:none;}
+#side2 ul ul{text-indent:2em;}
+#nav2 ul a:link, #nav2 ul a:visited{
+    text-indent:2em;
+}
+#nav2 a.nact,#nav2 a.nact:hover{color:#9966ad;background:#dcdcdc;}
+
+#nav3{
+	margin:0 25px;
+	padding:0;
+	list-style:none;
+	border: 1px solid #C3C3C3;
+}
+#nav3 a:link,#nav3 a:visited{
+	display:block;
+	margin:1px 0;
+	padding:3px 0;
+	background:#00a9a1;
+	color:#fff;
+	text-decoration:none;
+	text-indent:6px;
+	font-weight:bold;
+	width:150px;
+	background-color: #00978F;
+}
+
+#about #nav3 a.about, #about #nav3 a.about:hover, #author #nav3 a.author, #author #nav3 a.author:hover, 
+#buy #nav3 a.buy, #buy #nav3 a.buy:hover, #toc #nav3 a.toc, #toc #nav3 a.toc:hover, 
+#press #nav3 a.press, #press #nav3 a.press:hover, #kit #nav3 a.kit, #kit #nav3 a.kit:hover, 
+#errata #nav3 a.errata, #errata #nav3 a.errata:hover, #nav3 a:hover {
+	color:#00978F;
+	background:#dcdcdc;
+	background-color: #CFCFCF;
+}
+
+#foot{text-align:center;font-size:.85em;background:#fff;color:#666;clear:right;padding-top:1em;}
+.small{font-size:.85em;}
+#o{font-size:1em;font-weight:bold;margin-bottom:2px}
+.fd{display:inline;background:#dcdcdc;color:#333}
+.fs{font-size:.93em}
+code{font:1em courier,monaco,sans-serif;color:#3f0990}
+.t td{font:.85em verdana,arial,sans-serif;width:auto;}
+
+.warning{color:#960014;}
+.warningback{background:#960014;color:#fff;}
+.congrats{color:#006a25;}
+.congratsback{background:#006a25;color:#fff;}
+.caution{color:#a7a400;}
+.cautionback{background:#a7a400;color:#fff;}
+-->
+</style>
+</head><body>
+<a href="http://analyze.websiteoptimization.com/wso#content" title="Skip to content."></a><div id="l"><table width="100%" cellspacing="0" cellpadding="0" border="0" class="dark"><tbody><tr><td class="dark" width="60"><a class="top" href="http://www.websiteoptimization.com/"><img src="./Web Page Speed Report Before_files/l.gif" width="60" height="60" alt="Web Site Optimization" border="0"></a></td><td class="dark"><a class="top" href="http://www.websiteoptimization.com/"><h1>WebSiteOptimization.com</h1></a><a class="top" href="http://www.websiteoptimization.com/"></a><p><a class="top" href="http://www.websiteoptimization.com/">Higher traffic and speed guaranteed.™</a></p></td><td width="200" align="right"><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td class="med" width="50"><img src="./Web Page Speed Report Before_files/t.gif" width="1" height="30" alt=""></td><td class="light" width="50">&nbsp;</td><td class="vlight" width="50">&nbsp;</td><td width="50" class="white">&nbsp;</td></tr>
+<tr><td class="dark" width="50"><img src="./Web Page Speed Report Before_files/t.gif" width="1" height="30" alt=""></td><td class="med" width="50">&nbsp;</td><td class="light" width="50">&nbsp;</td><td class="vlight">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></div>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" id="n"><tbody><tr><td class="n"><a class="but" href="http://www.websiteoptimization.com/" title="go to home, access key h." accesskey="h"><u>H</u>ome</a> <a class="but" href="http://www.websiteoptimization.com/sitemap/" title="go to sitemap, access key m." accesskey="m">Site<u>m</u>ap</a> <a class="but" href="http://www.websiteoptimization.com/publications/" title="go to publications, access key p." accesskey="p"><u>P</u>ublications</a> <a class="but act" href="http://www.websiteoptimization.com/services/" title="go to services, access key s." accesskey="s"><u>S</u>ervices</a> <a class="but" href="http://www.websiteoptimization.com/about/" title="go to about page, access key a." accesskey="a"><u>A</u>bout</a> <a class="but" href="http://www.websiteoptimization.com/contact/" title="contact us, access key c." accesskey="c"><u>C</u>ontact</a></td>
+
+
+<td align="right"><form class="fd" action="http://meteor.sparklist.com/subscribe/subscribe.tml" method="post"><table cellspacing="0" cellpadding="0" border="0" id="o"><tbody><tr><td class="n"><a class="but" href="http://www.optimizationweek.com/" accesskey="n" title="go to optimizationweek.com newsletter, access key n."><u>N</u>ewsletter:</a>&nbsp;
+<input type="text" name="email" value="" size="15" class="fs"><input type="hidden" name="list" value="optimization_week"><input type="hidden" name="confirm" value="one"><input type="hidden" name="showconfirm" value="T"><input type="hidden" name="url" value="http://optimizationweek.com/about/thanks.html">&nbsp;<input type="submit" value="Subscribe" name="subscribe" class="fs"></td>
+
+</tr></tbody></table></form>
+</td></tr></tbody></table>
+
+<div id="side">
+	<ul id="nav3">
+
+<li><a class="about" href="http://www.websiteoptimization.com/secrets/">About the Book</a></li>
+<li><a class="author" href="http://www.websiteoptimization.com/secrets/author/">About the Author</a></li>
+<li><a class="buy" href="http://www.amazon.com/exec/obidos/ASIN/0596515081/ref=nosim/websiteoptimi-20/">Buy @Amazon US</a></li>
+<li><a class="buy" href="http://www.amazon.co.uk/exec/obidos/ASIN/0596515081/ref=nosim/websiteoptimi-21">Buy @Amazon UK</a></li>
+<li><a class="toc" href="http://www.websiteoptimization.com/secrets/toc/">Table of Contents</a></li>
+<!-- <li><a class="press" href="http://www.websiteoptimization.com/secrets/press/">Press</a></li> 
+<li><a class="kit" href="http://www.websiteoptimization.com/speed/press/kit/">Press Kit</a></li>
+<li><a class="errata" href="http://www.websiteoptimization.com/speed/errata/">Errata</a></li> -->
+</ul>
+
+<p id="image"><a href="http://www.amazon.com/exec/obidos/ASIN/0596515081/ref=nosim/websiteoptimi-20/"><img src="./Web Page Speed Report Before_files/wso-book-cover.png" width="150" height="197" alt="website optimization secrets book cover" border="1"></a></p>
+
+<ul id="nav2">
+<h2>Donations accepted</h2>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="image" src="./Web Page Speed Report Before_files/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="./Web Page Speed Report Before_files/pixel.gif" width="1" height="1">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHZwYJKoZIhvcNAQcEoIIHWDCCB1QCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYALuWg9XPhVnSFXESvUb0xhhtR9bI3XSv8424E7iHUz4UWn1hBBCIxloEoh9l9bpKIeC9g2RS58I7nzx2sW8Nx8ZnPYzEnq4MEyIPTtKGRcoQR3xiuvx1LarOEj+E396aApoFi+h01UUP7YyOIDU+BJBdUzFfavkcxFdj618E1QlDELMAkGBSsOAwIaBQAwgeQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIY1bqLVMIwP+AgcBYvoe3VspNjTz5MnwmciH8nlan3bVjRZaq05ryw0R4qPkGZeMRxp0GBAkcsUQ2BS8WowwKwtfR1Vb4R5HJqt9g9Os2+pOyRc42GHsSEQTghvGJ9wpFlDqnX+O4uVzv00W09D5NiOvktcDKC+b4OAVyE4405O5CV7vozwzHHLZMbKUqHI3ijerTWihlCwo0T7V2S/09jjh1LAPm5F40xZz6HzilK00nOpIC4JlvvBArx7lVmGEAINdkMbMIuh6C3J6gggOHMIIDgzCCAuygAwIBAgIBADANBgkqhkiG9w0BAQUFADCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wHhcNMDQwMjEzMTAxMzE1WhcNMzUwMjEzMTAxMzE1WjCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMFHTt38RMxLXJyO2SmS+Ndl72T7oKJ4u4uw+6awntALWh03PewmIJuzbALScsTS4sZoS1fKciBGoh11gIfHzylvkdNe/hJl66/RGqrj5rFb08sAABNTzDTiqqNpJeBsYs/c2aiGozptX2RlnBktH+SUNpAajW724Nv2Wvhif6sFAgMBAAGjge4wgeswHQYDVR0OBBYEFJaffLvGbxe9WT9S1wob7BDWZJRrMIG7BgNVHSMEgbMwgbCAFJaffLvGbxe9WT9S1wob7BDWZJRroYGUpIGRMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbYIBADAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4GBAIFfOlaagFrl71+jq6OKidbWFSE+Q4FqROvdgIONth+8kSK//Y/4ihuE4Ymvzn5ceE3S/iBSQQMjyvb+s2TWbQYDwcp129OPIbD9epdr4tJOUNiSojw7BHwYRiPh58S1xGlFgHFXwrEBb3dgNbMUa+u4qectsMAXpVHnD9wIyfmHMYIBmjCCAZYCAQEwgZQwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tAgEAMAkGBSsOAwIaBQCgXTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0wODA0MDIxNjAyMTVaMCMGCSqGSIb3DQEJBDEWBBTPFTtOa3u4DzkcDfIKR69sLCqbLzANBgkqhkiG9w0BAQEFAASBgJRWkvF4Vzxxb3xIK/UHcMa1UYNt+qOjyEc9EucTI3yLuEaMqKKkwIhpnpLFAgu5yyhKk9hqoJgs7znQIrSR/KRZEDGSl5VVflGHr3RuFEV2M9CEpYiUJpE/sNluoUz5UTR1IJOj5jz0j3G7x1oPoyJlEaflDJKQUN5Os0fzIjm5-----END PKCS7-----
+">
+</form>
+<p>Help support the development of Web Page Analyzer by donating today.</p> 
+<p>This analyzer is now available at <a href="http://www.webpageanalyzer.com/">WebPageAnalyzer.com</a> for your convenience.</p>
+</ul>
+
+</div>
+
+
+<div class="bc"><a href="http://www.websiteoptimization.com/">home</a> &gt; <a href="http://www.websiteoptimization.com/services/">services</a> &gt; <a href="http://www.websiteoptimization.com/services/analyze/">analyze</a> &gt; results</div>
+
+<h1>Web Page Speed Report</h1>
+
+<table border="1" class="t">
+<tbody><tr><th>URL:</th><td>xcart5.eproax.ca</td></tr>
+<tr><th>Title:</th><td>Proax Technologies Ltd. (Canada)</td></tr>
+<tr><th>Date:</th><td>Report run on Mon Feb 9 14:43:32EST2015
+</td></tr>
+</tbody></table>
+		
+<h2>Diagnosis</h2>
+<h3>Global Statistics</h3>
+<table border="1" class="t">
+<tbody><tr align="left"><td>Total HTTP Requests:</td><td>70</td></tr>
+<tr align="left"><td>Total Size:</td><td>1081286 bytes</td></tr>
+</tbody></table>
+<!-- START OBJECT SIZE TOTALS ------------------------------------------------>
+<h3>Object Size Totals</h3>
+<table border="1" class="t">
+	<tbody><tr><th>Object type</th><th>Size (bytes)</th><th>Download @ 56K (seconds)</th><th>Download @ T1 (seconds)</th></tr>
+    	<tr><td>HTML:</td><td>15303</td>
+        <td>3.25</td>
+        <td>0.28</td>
+    </tr>
+	<tr>
+            <td>HTML Images:</td><td>35868</td>
+        <td> 7.95</td>
+        <td> 0.99</td>
+    </tr>
+	<tr>
+            <td>CSS Images:</td><td>187414        </td><td> 49.75</td>
+        <td> 13.39</td>
+    </tr>
+	<tr>
+        <td>Total Images:</td><td>223282</td>
+        <td>57.7</td>
+        <td>14.38</td>
+    </tr>
+	<tr>
+            <td>Javascript:</td><td>647162</td>
+        <td>129.18</td>
+        <td>3.63</td>
+    </tr>
+	<tr>
+            <td>CSS:</td><td>195539</td>
+        <td>39.37</td>
+        <td>1.44</td>
+    </tr>
+	<tr>
+            <td>Multimedia:</td><td>0</td>
+        <td>0.00</td>
+        <td>0.00</td>
+    </tr>
+	<tr>
+        <td>Other:</td><td>0</td>
+        <td>0.00</td>
+        <td>0.00</td>
+    </tr>
+</tbody></table>
+
+<!-- ENDOF OBJECT SIZE TOTALS ------------------------------------------------>
+
+<!-- START EXTERNAL OBJECTS ------------------------------------------------>
+<h3>External Objects</h3>
+<table border="1" class="t">
+<tbody><tr><th>External Object</th><th>QTY</th></tr>
+	<tr>
+		<td>Total HTML:</td><td>1</td>
+	</tr>
+	
+<!-- External Objects: HTML Images -->
+	<tr>
+		<td>Total HTML Images:</td><td>4</td>
+	</tr>
+
+<!-- External Objects: CSS Images -->
+	<tr>
+		<td>Total CSS Images:</td><td>62</td>
+	</tr>
+
+<!-- External Objects: TOTAL Images -->
+	<tr>
+		<td>Total Images:</td><td>66</td>
+	</tr>
+
+<!-- External Objects: Total Javascripts-->
+	<tr>
+		<td>Total Scripts:</td><td>1</td>
+	</tr>
+
+<!-- External Objects: CSS files-->
+	<tr>
+		<td>Total CSS imports:</td><td>2</td>
+	</tr>
+	
+
+<!-- External Objects: Frame Count-->
+	<tr><td>Total Frames:</td><td>0</td></tr>
+
+<!-- External Objects: iFrame Count-->
+	<tr><td>Total Iframes:</td><td>0</td></tr>
+
+</tbody></table>
+<!-- ENDOF EXTERNAL OBJECTS ------------------------------------------------>
+
+<h3>Download Times*</h3>
+ <table border="1" class="t">
+  <tbody><tr><th>Connection Rate</th><th>Download Time</th></tr>
+  
+  <tr>
+    <td>14.4K</td>
+    <td>852.05 seconds</td>
+  </tr>
+  
+  <tr>
+    <td>28.8K</td>
+    <td>433.03 seconds</td>
+  </tr>
+  
+  <tr>
+    <td>33.6K</td>
+    <td>373.16 seconds</td>
+  </tr>
+  
+  <tr>
+    <td>56K</td>
+    <td>229.50 seconds</td>
+  </tr>
+  
+  <tr>
+
+    <td>ISDN 128K</td>
+    <td>80.00 seconds</td>
+  </tr>
+  
+  <tr>
+    <td>T1 1.44Mbps</td>
+    <td>19.73 seconds</td>
+  </tr>
+
+  
+</tbody></table>
+<p>*Note that these download times are based on the full connection rate for ISDN and T1 connections. Modem connections (56Kbps or less) are corrected by a packet loss factor of 0.7. All download times include delays due to round-trip latency with an average of 0.2 seconds per object. With 70 total objects for this page, that computes to a total lag time due to latency of 14 seconds. Note also that this download time calculation does not take into account delays due to XHTML parsing and rendering.</p>
+
+<h3>Page Objects</h3>
+<table border="1" class="t">
+  <tbody><tr><th>QTY</th><th>SIZE#</th><th>TYPE</th><th>URL</th><th>COMMENTS</th></tr>
+			<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,300&amp;ampsubset=latin,cyrillic,greek" href="http://xcart5.eproax.ca//fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,300&ampsubset=latin,cyrillic,greek">xcart5.eproax.ca&nbsp;...&nbsp;ts.googleapis.com/css?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,300&amp;ampsubset=latin,cyrillic,greek&#39;)">157</a> bytes
+                              
+    		<br>Up to 49 bytes could have been saved through compression.                <br>View a <a href="javascript:void(0)" onclick="popUpFormattedCSS(&#39;http://xcart5.eproax.ca//fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,300&amp;ampsubset=latin,cyrillic,greek&#39;)">formatted</a> version of this CSS file
+                            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">647162			</td>
+			<td nowrap="">SCRIPT			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/js/0a857f6a35b2cf9c3d96573c9b855c50f96ae3d152ac6ce3b3768687bc0f875c.js?1423510587" href="http://xcart5.eproax.ca/var/resources/js/0a857f6a35b2cf9c3d96573c9b855c50f96ae3d152ac6ce3b3768687bc0f875c.js?1423510587">xcart5.eproax.ca&nbsp;...&nbsp;e3b3768687bc0f875c.js?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/js/0a857f6a35b2cf9c3d96573c9b855c50f96ae3d152ac6ce3b3768687bc0f875c.js?1423510587&#39;)">260</a> bytes
+                              
+    		            
+    		            
+    		<br>Up to 471826 bytes could have been saved through compression.&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">214608			</td>
+			<td nowrap="">CSS*			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/css/http/all/23047c28ec56dea64a8232e15512468c2239342439c658b40a17ea16bd3ab002.css?1423510587" href="http://xcart5.eproax.ca/var/resources/css/http/all/23047c28ec56dea64a8232e15512468c2239342439c658b40a17ea16bd3ab002.css?1423510587">xcart5.eproax.ca&nbsp;...&nbsp;40a17ea16bd3ab002.css?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/css/http/all/23047c28ec56dea64a8232e15512468c2239342439c658b40a17ea16bd3ab002.css?1423510587&#39;)">246</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">195539			</td>
+			<td nowrap="">CSS			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/default/http/screen/f29ae45c979772c10513e3d792665de0.css?1423510587" href="http://xcart5.eproax.ca/var/resources/default/http/screen/f29ae45c979772c10513e3d792665de0.css?1423510587">xcart5.eproax.ca&nbsp;...&nbsp;10513e3d792665de0.css?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/default/http/screen/f29ae45c979772c10513e3d792665de0.css?1423510587&#39;)">246</a> bytes
+                              
+    		<br>Up to 167322 bytes could have been saved through compression.                <br>View a <a href="javascript:void(0)" onclick="popUpFormattedCSS(&#39;http://xcart5.eproax.ca/var/resources/default/http/screen/f29ae45c979772c10513e3d792665de0.css?1423510587&#39;)">formatted</a> version of this CSS file
+                            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">62927			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular" href="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular">xcart5.eproax.ca&nbsp;...&nbsp;yphicons_halflingsregular</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular&#39;)">249</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">55159			</td>
+			<td nowrap="">CSS*			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/css/http/all/05905b7a9c8c88e8d6d36cfae8ad89d96cbb09ccfdd6b0e2012a2f1889267d35.css?1423510587" href="http://xcart5.eproax.ca/var/resources/css/http/all/05905b7a9c8c88e8d6d36cfae8ad89d96cbb09ccfdd6b0e2012a2f1889267d35.css?1423510587">xcart5.eproax.ca&nbsp;...&nbsp;2012a2f1889267d35.css?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/css/http/all/05905b7a9c8c88e8d6d36cfae8ad89d96cbb09ccfdd6b0e2012a2f1889267d35.css?1423510587&#39;)">244</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">41280			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.ttf" href="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.ttf">xcart5.eproax.ca&nbsp;...&nbsp;ons-halflings-regular.ttf</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.ttf&#39;)">258</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">33525			</td>
+			<td nowrap="">IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/proaxlogo.jpg" href="http://xcart5.eproax.ca/proaxlogo.jpg">http://xcart5.eproax.ca/proaxlogo.jpg</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/proaxlogo.jpg&#39;)">246</a> bytes
+                              <br>Missing width attribute. <br>Missing height attribute. 
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">23320			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.woff" href="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.woff">xcart5.eproax.ca&nbsp;...&nbsp;ns-halflings-regular.woff</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.woff&#39;)">259</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">20335			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix" href="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix">xcart5.eproax.ca&nbsp;...&nbsp;halflings-regular.eot?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix&#39;)">265</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">20335			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.eot" href="http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.eot">xcart5.eproax.ca&nbsp;...&nbsp;ons-halflings-regular.eot</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/bootstrap/fonts/glyphicons-halflings-regular.eot&#39;)">265</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">16487			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/default/en/items_list/product/images/bag/small.png" href="http://xcart5.eproax.ca/skins/default/en/items_list/product/images/bag/small.png">xcart5.eproax.ca&nbsp;...&nbsp;duct/images/bag/small.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/default/en/items_list/product/images/bag/small.png&#39;)">245</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">15303			</td>
+			<td nowrap="">HTML			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca" href="http://xcart5.eproax.ca/">http://xcart5.eproax.ca</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;xcart5.eproax.ca&#39;)">496</a> bytes
+                              
+    		            
+    		<br>Up to 11692 bytes could have been saved through compression.                <br>View a <a href="javascript:void(0)" onclick="popUpFormattedHTML(&#39;xcart5.eproax.ca&#39;)">formatted</a> version of this HTML file
+                            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/top_message/../images/icon_cross_white.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_cross_white.png">xcart5.eproax.ca&nbsp;...&nbsp;ages/icon_cross_white.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/top_message/../images/icon_cross_white.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/product/search/images/search.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/product/search/images/search.png">xcart5.eproax.ca&nbsp;...&nbsp;/search/images/search.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/product/search/images/search.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/modules/CDev/InstantSearch/ajax-loader.gif" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/modules/CDev/InstantSearch/ajax-loader.gif">xcart5.eproax.ca&nbsp;...&nbsp;antSearch/ajax-loader.gif</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/modules/CDev/InstantSearch/ajax-loader.gif&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/language_selector/../images/arrow_down.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/arrow_down.png">xcart5.eproax.ca&nbsp;...&nbsp;/../images/arrow_down.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/language_selector/../images/arrow_down.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/wizard_selected_rarr.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/wizard_selected_rarr.png">xcart5.eproax.ca&nbsp;...&nbsp;/wizard_selected_rarr.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/wizard_selected_rarr.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/wizard_selected_larr.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/wizard_selected_larr.png">xcart5.eproax.ca&nbsp;...&nbsp;/wizard_selected_larr.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/wizard_selected_larr.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/twitter.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/twitter.png">xcart5.eproax.ca&nbsp;...&nbsp;css/../images/twitter.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/twitter.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/sort.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/sort.png">xcart5.eproax.ca&nbsp;...&nbsp;en/css/../images/sort.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/sort.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/quote.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/quote.png">xcart5.eproax.ca&nbsp;...&nbsp;n/css/../images/quote.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/quote.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/progress.gif" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/progress.gif">xcart5.eproax.ca&nbsp;...&nbsp;ss/../images/progress.gif</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/progress.gif&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/products-sidebar-bullet.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/products-sidebar-bullet.png">xcart5.eproax.ca&nbsp;...&nbsp;oducts-sidebar-bullet.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/products-sidebar-bullet.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/preloader.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/preloader.png">xcart5.eproax.ca&nbsp;...&nbsp;s/../images/preloader.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/preloader.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/pager.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/pager.png">xcart5.eproax.ca&nbsp;...&nbsp;n/css/../images/pager.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/pager.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">4			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/menu-arrows.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/menu-arrows.png">xcart5.eproax.ca&nbsp;...&nbsp;../images/menu-arrows.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/menu-arrows.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/loupe.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/loupe.png">xcart5.eproax.ca&nbsp;...&nbsp;n/css/../images/loupe.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/loupe.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/list-header.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/list-header.png">xcart5.eproax.ca&nbsp;...&nbsp;../images/list-header.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/list-header.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_window_close.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_window_close.png">xcart5.eproax.ca&nbsp;...&nbsp;ges/icon_window_close.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_window_close.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_trash.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_trash.png">xcart5.eproax.ca&nbsp;...&nbsp;/../images/icon_trash.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_trash.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_shipping.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_shipping.png">xcart5.eproax.ca&nbsp;...&nbsp;/images/icon_shipping.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_shipping.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_printer.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_printer.png">xcart5.eproax.ca&nbsp;...&nbsp;./images/icon_printer.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_printer.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_cross_circle.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_cross_circle.png">xcart5.eproax.ca&nbsp;...&nbsp;ges/icon_cross_circle.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_cross_circle.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_billing.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/icon_billing.png">xcart5.eproax.ca&nbsp;...&nbsp;./images/icon_billing.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/icon_billing.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/facebook.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/facebook.png">xcart5.eproax.ca&nbsp;...&nbsp;ss/../images/facebook.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/facebook.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/dotted.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/dotted.png">xcart5.eproax.ca&nbsp;...&nbsp;/css/../images/dotted.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/dotted.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout_or_bg.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/checkout_or_bg.png">xcart5.eproax.ca&nbsp;...&nbsp;images/checkout_or_bg.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout_or_bg.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-inactive-right.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/checkout-header-inactive-right.png">xcart5.eproax.ca&nbsp;...&nbsp;header-inactive-right.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-inactive-right.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-inactive-left.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/checkout-header-inactive-left.png">xcart5.eproax.ca&nbsp;...&nbsp;-header-inactive-left.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-inactive-left.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-active-right.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/checkout-header-active-right.png">xcart5.eproax.ca&nbsp;...&nbsp;t-header-active-right.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-active-right.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-active-left.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/checkout-header-active-left.png">xcart5.eproax.ca&nbsp;...&nbsp;ut-header-active-left.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/checkout-header-active-left.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow_big_right.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/arrow_big_right.png">xcart5.eproax.ca&nbsp;...&nbsp;mages/arrow_big_right.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow_big_right.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow_big_left.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/arrow_big_left.png">xcart5.eproax.ca&nbsp;...&nbsp;images/arrow_big_left.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow_big_left.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow-up.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/arrow-up.png">xcart5.eproax.ca&nbsp;...&nbsp;ss/../images/arrow-up.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow-up.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow-down.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/images/arrow-down.png">xcart5.eproax.ca&nbsp;...&nbsp;/../images/arrow-down.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/default/en/css/../images/arrow-down.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_cd0a0a_256x240.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_cd0a0a_256x240.png">xcart5.eproax.ca&nbsp;...&nbsp;-icons_cd0a0a_256x240.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_cd0a0a_256x240.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_888888_256x240.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_888888_256x240.png">xcart5.eproax.ca&nbsp;...&nbsp;-icons_888888_256x240.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_888888_256x240.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_454545_256x240.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_454545_256x240.png">xcart5.eproax.ca&nbsp;...&nbsp;-icons_454545_256x240.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_454545_256x240.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_2e83ff_256x240.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_2e83ff_256x240.png">xcart5.eproax.ca&nbsp;...&nbsp;-icons_2e83ff_256x240.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_2e83ff_256x240.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_222222_256x240.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_222222_256x240.png">xcart5.eproax.ca&nbsp;...&nbsp;-icons_222222_256x240.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-icons_222222_256x240.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png">xcart5.eproax.ca&nbsp;...&nbsp;-soft_75_cccccc_1x100.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_95_fef1ec_1x400.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_95_fef1ec_1x400.png">xcart5.eproax.ca&nbsp;...&nbsp;glass_95_fef1ec_1x400.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_95_fef1ec_1x400.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_75_e6e6e6_1x400.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_75_e6e6e6_1x400.png">xcart5.eproax.ca&nbsp;...&nbsp;glass_75_e6e6e6_1x400.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_75_e6e6e6_1x400.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_75_dadada_1x400.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_75_dadada_1x400.png">xcart5.eproax.ca&nbsp;...&nbsp;glass_75_dadada_1x400.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_75_dadada_1x400.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_65_ffffff_1x400.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_65_ffffff_1x400.png">xcart5.eproax.ca&nbsp;...&nbsp;glass_65_ffffff_1x400.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_65_ffffff_1x400.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_55_fbf9ee_1x400.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_55_fbf9ee_1x400.png">xcart5.eproax.ca&nbsp;...&nbsp;glass_55_fbf9ee_1x400.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_glass_55_fbf9ee_1x400.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_flat_75_ffffff_40x100.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_flat_75_ffffff_40x100.png">xcart5.eproax.ca&nbsp;...&nbsp;flat_75_ffffff_40x100.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_flat_75_ffffff_40x100.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">2			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_flat_0_aaaaaa_40x100.png" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_flat_0_aaaaaa_40x100.png">xcart5.eproax.ca&nbsp;...&nbsp;_flat_0_aaaaaa_40x100.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/ui-bg_flat_0_aaaaaa_40x100.png&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/animated-overlay.gif" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/animated-overlay.gif">xcart5.eproax.ca&nbsp;...&nbsp;ages/animated-overlay.gif</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/ui/images/animated-overlay.gif&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.woff?v=4.0.3" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/fonts/fontawesome-webfont.woff?v=4.0.3">xcart5.eproax.ca&nbsp;...&nbsp;tawesome-webfont.woff?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.woff?v=4.0.3&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.ttf?v=4.0.3" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/fonts/fontawesome-webfont.ttf?v=4.0.3">xcart5.eproax.ca&nbsp;...&nbsp;ntawesome-webfont.ttf?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.ttf?v=4.0.3&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular">xcart5.eproax.ca&nbsp;...&nbsp;ntawesome-webfont.svg?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.eot?v=4.0.3" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/fonts/fontawesome-webfont.eot?v=4.0.3">xcart5.eproax.ca&nbsp;...&nbsp;ntawesome-webfont.eot?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.eot?v=4.0.3&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.eot?#iefix&amp;v=4.0.3" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3">xcart5.eproax.ca&nbsp;...&nbsp;ntawesome-webfont.eot?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/font-awesome/../fonts/fontawesome-webfont.eot?#iefix&amp;v=4.0.3&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">Not found			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/../images/icon_mouse.gif" href="http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/images/icon_mouse.gif">xcart5.eproax.ca&nbsp;...&nbsp;/../images/icon_mouse.gif</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca//xcart5.eproax.ca/skins/common/css/../images/icon_mouse.gif&#39;)">157</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">3885			</td>
+			<td nowrap="">CSS*			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/css/http/all/b0bfbd963137ed58472b11fb3a6adfa44af4389a11296221aac6e12305102384.css?1423510587" href="http://xcart5.eproax.ca/var/resources/css/http/all/b0bfbd963137ed58472b11fb3a6adfa44af4389a11296221aac6e12305102384.css?1423510587">xcart5.eproax.ca&nbsp;...&nbsp;1aac6e12305102384.css?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/css/http/all/b0bfbd963137ed58472b11fb3a6adfa44af4389a11296221aac6e12305102384.css?1423510587&#39;)">242</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">2200			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/default/en/images/shopping-bag.png" href="http://xcart5.eproax.ca/skins/default/en/images/shopping-bag.png">xcart5.eproax.ca&nbsp;...&nbsp;n/images/shopping-bag.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/default/en/images/shopping-bag.png&#39;)">243</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">1795			</td>
+			<td nowrap="">CSS*			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/css/http/print/76fc2d58448532f4ebf94a6c1113326460a30f0371e19e7320bd6daee7490ca7.css?1423510587" href="http://xcart5.eproax.ca/var/resources/css/http/print/76fc2d58448532f4ebf94a6c1113326460a30f0371e19e7320bd6daee7490ca7.css?1423510587">xcart5.eproax.ca&nbsp;...&nbsp;320bd6daee7490ca7.css?...</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/css/http/print/76fc2d58448532f4ebf94a6c1113326460a30f0371e19e7320bd6daee7490ca7.css?1423510587&#39;)">242</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">3			</td>
+			<td nowrap="">1198			</td>
+			<td nowrap="">IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/images/flags/en.png" href="http://xcart5.eproax.ca/skins/common/images/flags/en.png">xcart5.eproax.ca&nbsp;...&nbsp;ommon/images/flags/en.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/images/flags/en.png&#39;)">243</a> bytes
+                              <br>Missing width attribute. <br>Missing height attribute. 
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">3			</td>
+			<td nowrap="">1102			</td>
+			<td nowrap="">IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/common/images/flags/fr.png" href="http://xcart5.eproax.ca/skins/common/images/flags/fr.png">xcart5.eproax.ca&nbsp;...&nbsp;ommon/images/flags/fr.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/common/images/flags/fr.png&#39;)">243</a> bytes
+                              <br>Missing width attribute. <br>Missing height attribute. 
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">313			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/var/resources/css/http/all/data:image/gifbase64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" href="http://xcart5.eproax.ca/var/resources/css/http/all/data:image/gifbase64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">xcart5.eproax.ca&nbsp;...&nbsp;AAAAALAAAAAABAAEAAAIBRAA7</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/var/resources/css/http/all/data:image/gifbase64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7&#39;)">185</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">4			</td>
+			<td nowrap="">217			</td>
+			<td nowrap="">CSS IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/default/en/images/pager.png" href="http://xcart5.eproax.ca/skins/default/en/images/pager.png">xcart5.eproax.ca&nbsp;...&nbsp;fault/en/images/pager.png</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/default/en/images/pager.png&#39;)">241</a> bytes
+                              
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+				<tr>
+			<td nowrap="">1			</td>
+			<td nowrap="">43			</td>
+			<td nowrap="">IMG			</td>
+
+            <td>        <a title="http://xcart5.eproax.ca/skins/default/en/images/spacer.gif" href="http://xcart5.eproax.ca/skins/default/en/images/spacer.gif">xcart5.eproax.ca&nbsp;...&nbsp;ault/en/images/spacer.gif</a>
+                  </td>
+
+            <td>                                    Header size = <a href="javascript:void(0)" onclick="popUpHeader(&#39;http://xcart5.eproax.ca/skins/default/en/images/spacer.gif&#39;)">240</a> bytes
+                              <br>Missing width attribute. <br>Missing height attribute. 
+    		            
+    		            
+    		&nbsp;</td>
+		</tr>
+			<tr>
+		<td nowrap="">70 ^
+		</td>		 
+		<td nowrap="">1081286*
+		</td>		 
+		<td>&nbsp;</td>
+		<td colspan="3">Total (^unique objects)</td>
+	</tr>
+</tbody></table>
+
+	<p># This site is not using HTTP compression, otherwise called content encoding using gzip. Consider compressing your textual content (XHTML, JavaScript, etc.) with mod_gzip or similar products.</p>
+
+<p>* CSS alternate stylesheets may be referenced in the HTML but are not actually downloaded until they are needed and are therefore not included in the total page size.</p>
+
+<h2>Analysis and Recommendations</h2>
+<ul>
+<li> <span class="congratsback">TOTAL_HTML</span> - <span class="congrats">Congratulations</span>, the total number of HTML files on this page 
+				(including the main HTML file) is 1 which most browsers can 
+				multithread. Minimizing HTTP requests is key for web site 
+				optimization. Y </li><li> <span class="warningback">TOTAL_OBJECTS</span> - <span class="warning">Warning!</span>  The total number of objects on this 
+				page is 70 which by their number will dominate web page delay. Consider reducing this to a more 
+				reasonable number. Above 20 objects per page the overhead from dealing with the actual objects (description time and wait time) accounts for more than 80% of whole page latency. See Figure II-3: <a href="http://analyze.websiteoptimization.com/secrets/performance/II-3-object-overhead.html">Relative distribution of latency components showing that object overhead dominates web page latency</a> in <a href="http://www.websiteoptimization.com/secrets/">Website Optimization Secrets</a> for more details on how object overhead dominates web page latency. Combine, refine, and optimize your external 
+				objects. Replace graphic rollovers with CSS rollovers to speed 
+				display and minimize HTTP requests. Consider using <a href="http://www.websiteoptimization.com/speed/tweak/css-sprites/">CSS sprites</a> to help consolidate decorative images. Using CSS techniques such as colored backgrounds, borders, or spacing instead of graphic techniques can reduce HTTP requests. Replace graphic text headers with CSS text headers to further reduce HTTP requests. Finally, consider <a href="http://www.websiteoptimization.com/speed/tweak/parallel/">optimizing parallel downloads</a> by using different hostnames or a CDN to reduce object overhead. </li><li> <span class="warningback">TOTAL_IMAGES</span> - <span class="warning">Warning!</span> The total number of images on this page 
+		is 66 , consider reducing this to a more reasonable 
+		number. Recommend combining, replacing, and optimizing your graphics. Replace graphic 
+		rollover menus with <a href="http://www.websiteoptimization.com/speed/tweak/cssmenus/">CSS rollover menus</a> to speed display and minimize HTTP requests. Consider using <a href="http://www.websiteoptimization.com/speed/tweak/css-sprites/">CSS sprites</a> to help consolidate decorative images. Use CSS techniques such as colored backgrounds, borders, or spacing instead of graphic techniques to reduce HTTP requests. Replace graphic text headers with CSS text headers to further reduce HTTP requests. Finally, consider <a href="http://www.websiteoptimization.com/speed/tweak/parallel/">optimizing parallel downloads</a> by using different hostnames to reduce object overhead. </li><li> <span class="congratsback">TOTAL_CSS</span> - <span class="congrats">Congratulations</span>, the total number of external CSS files on this page is 2 . Because external CSS files must 
+		be in the HEAD of your HTML document, they must load first before any BODY content displays. Although they are cached, CSS files slow down 
+		the initial display of your page. Remember to place CSS files in the HEAD and JavaScript files at the end of the BODY to enable progressive display. </li><li> <span class="warningback">TOTAL_SIZE</span> - <span class="warning">Warning!</span> The total size of this page is 
+		1081286  bytes, which will load in  229.50  seconds 
+		on a 56Kbps modem.  Consider reducing total page size to less than 
+		100K to achieve sub 20 second response times on 56K connections. 
+		Pages over 100K exceed most attention thresholds at 56Kbps, even with 
+		feedback. Consider optimizing your site with <a href="http://www.websiteoptimization.com/secrets/">Website Optimization Secrets</a>, <a href="http://www.websiteoptimization.com/speed/"><i>Speed Up Your Site</i></a> or 
+		<a href="http://www.websiteoptimization.com/contact/"> contacting us</a> about our 
+		optimization services. </li><li> <span class="congratsback">TOTAL_SCRIPT</span> - <span class="congrats">Congratulations</span>, the total number of external 
+			script files on this page is 1 . External scripts are 
+			less reliably cached than CSS files so consider combining scripts 
+			into one to <a href="http://www.websiteoptimization.com/speed/tweak/http/">minimize HTTP requests</a>, or even embedding them into high-traffic pages. Placing external JavaScript files at the bottom of your BODY, and CSS files in the HEAD enables progressive display in XHTML web pages. </li><li> <span class="congratsback">HTML_SIZE</span> - <span class="congrats">Congratulations</span>, the total size of this HTML file 
+		is 15303  bytes, which less than 50K. Assuming that you specify 
+		the HEIGHT and WIDTH of your images, this size allows your HTML to 
+		display content in under 10 seconds, the average time users are 
+		willing to wait for a page to display without feedback. </li><li> <span class="warningback">IMAGES_SIZE</span> - <span class="warning">Warning!</span> The total size of your images is 
+		223282  bytes, which is over 100K. Consider <a href="http://www.websiteoptimization.com/speed/tweak/graphic-optimization/%3Eoptimizing%20images%3C/a%3E%20for%20size,%20combining%20them,%20and%20replacing%20graphic%20rollovers%20with%20CSS.%20You%20can%20often%20%3Ca%20href=" http:="" www.websiteoptimization.com="" speed="" tweak="" format="" "="">switch graphic formats</a> to achive smaller file sizes (from JPEG to PNG for example). Finally, substitute CSS techniques for graphics techniques to create colored borders, backgrounds, and spacing. </li><li> <span class="warningback">SCRIPT_SIZE</span> - <span class="warning">Warning!</span> The total size of external your scripts is 
+		647162  bytes, which is over 20K. Consider <a href="http://www.websiteoptimization.com/speed/tweak/javascript-optimization/">optimizing your JavaScript</a> for size, combining them, and using <a href="http://www.websiteoptimization.com/speed/tweak/compress/">HTTP compression</a> where 
+		appropriate for any scripts placed in the HEAD of your documents.  You can substitute <a href="http://www.websiteoptimization.com/speed/tweak/cssmenus/">CSS menus</a> for JavaScript-based menus to minimize or even eliminate the use of JavaScript. </li><li> <span class="warningback">CSS_SIZE</span> - <span class="warning">Warning!</span> The total size of your external CSS is 
+		195539  bytes, which is over 20K. Consider <a href="http://www.websiteoptimization.com/speed/tweak/css-optimization/">optimizing your CSS</a> for size by eliminating whitespace, using shorthand notation, and combining multiple CSS files where appropriate. By using labeled container cells and <a href="http://www.websiteoptimization.com/speed/tweak/descendant/">descendant selectors</a> you can target chunks of HTML content efficiently without the need to embed extra claases and styles. </li><li> <span class="congratsback">MULTIM_SIZE</span> - <span class="congrats">Congratulations</span>, the total size of all your 
+		external multimedia files is 0  bytes, which is less than 
+		10K. </li></ul>
+<div id="foot">
+<p>Copyright © 2002-2011 <a href="http://www.websiteoptimization.com/about/">Web Site Optimization</a>, LLC</p>
+
+</div>
+
+</body></html>

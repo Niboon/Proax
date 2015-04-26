@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Translation data (FR)
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: 'Add other products to compare', translations: [{ code: en, label: 'Add other products to compare' }] }
+  - { name: 'Compare', translations: [{ code: en, label: 'Compare' }] }
+  - { name: 'Clear list', translations: [{ code: en, label: 'Clear list' }] }
+  - { name: 'Differences only', translations: [{ code: en, label: 'Differences only' }] }
+  - { name: 'Add to compare', translations: [{ code: en, label: 'Add to compare' }] }

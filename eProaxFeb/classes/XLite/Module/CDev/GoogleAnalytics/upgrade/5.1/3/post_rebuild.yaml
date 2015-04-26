@@ -1,0 +1,18 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: ga_code_version
+    category: CDev\GoogleAnalytics
+    type: 'XLite\Module\CDev\GoogleAnalytics\View\FormField\Select\CodeVersion'
+    orderby: 300
+    value: T
+    translations:
+      - code: en
+        option_name: 'Google Analytics code version'

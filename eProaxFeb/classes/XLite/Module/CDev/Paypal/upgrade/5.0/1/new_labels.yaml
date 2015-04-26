@@ -1,0 +1,29 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "PayPal ID / Email", translations: [{ code: en, label: "PayPal ID / Email" }] }
+  - { name: "Enter the email address associated with your PayPal account.", translations: [{ code: en, label: "Enter the email address associated with your PayPal account." }] }
+  - { name: "Enter description of the purchase that will be displayed on PayPal payment page.", translations: [{ code: en, label: "Enter a description of the purchase that will be displayed on the PayPal payment page." }] }
+  - { name: "You can define an order id prefix, which would precede each order number in your shop, to make it unique", translations: [{ code: en, label: "You can set an order id prefix that will be added to each order number in your shop to make it unique (each transaction id must be unique for a PayPal account). This option is relevant only if you share your PayPal account with other online shops" }] }
+  - { name: "Your account settings", translations: [{ code: en, label: "Your account settings" }] }
+  - { name: "Partner name", translations: [{ code: en, label: "Partner name" }] }
+  - { name: "Your partner name is PayPal", translations: [{ code: en, label: "Your partner name is PayPal" }] }
+  - { name: "Merchant login", translations: [{ code: en, label: "Merchant login" }] }
+  - { name: "This is the login name you created when signing up for PayPal Payments Advanced.", translations: [{ code: en, label: "This is the login name you created when you signed up for PayPal Payments Advanced." }] }
+  - { name: "PayPal recommends entering a User Login here instead of your Merchant Login", translations: [{ code: en, label: "PayPal recommends entering a User Login here instead of your Merchant Login. You can set up a User profile in <a href=\"https://manager.paypal.com\">PayPal Manager</a>. This will enhance security and prevent service interruption should you change your Merchant Login password." }] }
+  - { name: "This is the password you created when signing up for PayPal Payments Advanced or the password you created for API calls.", translations: [{ code: en, label: "This is the password you created when you signed up for PayPal Payments Advanced or the password you created for API calls." }] }
+  - { name: "Additional settings", translations: [{ code: en, label: "Additional settings" }] }
+  - { name: "Auth and Capture", translations: [{ code: en, label: "Auth and Capture" }] }
+  - { name: "Auth only", translations: [{ code: en, label: "Auth only" }] }
+  - { name: "This should be the same partner name that is used when logging into your PayPal Payflow account.", translations: [{ code: en, label: "This should be the partner name you use when logging into your PayPal Payflow account." }] }
+  - { name: "This is the login name you created when signing up for Payflow.", translations: [{ code: en, label: "This is the login name you created when you signed up for Payflow." }] }
+  - { name: "This is the password you created when signing up for PayPal Payflow or the password you created for API calls.", translations: [{ code: en, label: "This is the password you created when you signed up for PayPal Payflow or the password you created for API calls." }] }
+  - { name: "IPN verification failed", translations: [{ code: en, label: "IPN verification failed" }] }
+  - { name: "IPN HTTP error", translations: [{ code: en, label: "IPN HTTP error" }] }

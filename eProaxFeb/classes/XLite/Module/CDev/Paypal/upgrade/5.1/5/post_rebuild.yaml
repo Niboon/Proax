@@ -1,0 +1,34 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Payment\Method:
+  - service_name: PaypalCredit
+    class: 'Module\CDev\Paypal\Model\Payment\Processor\PaypalCredit'
+    added: true
+    type: C
+    orderby: -11000
+    translations:
+      - code: en
+        name: 'PayPal Credit'
+        title: 'PayPal Credit'
+    settings:
+      - name: enabled
+        value: 1
+      - name: agreement
+        value: N
+      - name: email
+      - name: publisherId
+      - name: bannerOnHomePage
+        value: D
+      - name: bannerOnCategoryPages
+        value: D
+      - name: bannerOnProductDetailsPages
+        value: A
+      - name: bannerOnCartPage
+        value: C

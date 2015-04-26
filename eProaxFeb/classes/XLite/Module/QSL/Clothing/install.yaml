@@ -1,0 +1,24 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: 'My Cart', translations: [{ code: 'en', label: 'My Cart' }] }
+  - { name: 'homeBanner', translations: [{ code: 'en', label: '<img src="skins/default/en/modules/QSL/Clothing/images/home_banner.jpg" alt=""/>'}]}
+  - { name: 'Mens collection', translations: [{ code: 'en', label: '<img src="skins/default/en/modules/QSL/Clothing/images/mens_collection_banner.jpg" alt=""/>'}]}
+  - { name: 'Womens collection', translations: [{ code: 'en', label: '<img src="skins/default/en/modules/QSL/Clothing/images/womens_collection_banner.jpg" alt=""/>'}]}
+  - { name: 'Teenagers collection', translations: [{ code: 'en', label: '<img src="skins/default/en/modules/QSL/Clothing/images/teenagers_collection_banner.jpg" alt=""/>'}]}
+  - { name: 'Quick View', translations: [{ code: 'en', label: 'Quick View' }] }
+  - { name: 'Information', translations: [{ code: 'en', label: '<h2>Information</h2><ul><li><a href="#">About Us</a></li><li><a href="#">Customer Service</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Site Map</a></li><li><a href="#">Search Terms</a></li><li><a href="#">Orders and Returns</a></li></ul>' }] }
+  - { name: 'Why buy from us', translations: [{ code: 'en', label: '<h2>Why buy from us?</h2><ul><li><a href="#">Shipping & Returns</a></li><li><a href="#">Secure Shopping</a></li><li><a href="#">International Shipping</a></li><li><a href="#">Affiliates</a></li><li><a href="#">Group Sales</a></li></ul>' }] }
+  - { name: 'My account menu', translations: [{ code: 'en', label: '<h2>My account</h2><ul><li><a href="#">Sign In</a></li><li><a href="#">View Cart</a></li><li><a href="#">Track My Order</a></li><li><a href="#">Help</a></li></ul>' }] }
+  - { name: 'Store Location', translations: [{ code: 'en', label: '1001, N Arney Rd Woodburn, OR 97071 USA' }] }
+  - { name: 'Social bottom links', translations: [{ code: 'en', label: '<a href="http://twitter.com"><img src="skins/default/en/modules/QSL/Clothing/images/twitter_icon.gif" alt="" /></a><a href="http://facebook.com"><img src="skins/default/en/modules/QSL/Clothing/images/facebook_icon.gif" alt="" /></a>' }] }
+  - { name: 'PaymentCards', translations: [{ code: 'en', label: '<img src="skins/default/en/modules/QSL/Clothing/images/payment_cards.gif" alt="" />'}]}
+  
+  

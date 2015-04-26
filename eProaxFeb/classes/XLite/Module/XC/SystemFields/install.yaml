@@ -1,0 +1,44 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: show_upcIsbn_field
+    category: XC\SystemFields
+    type: \XLite\Module\XC\SystemFields\View\FormField\Select\ShowInSelector
+    orderby: 100
+    value: 'AC'
+    translations:
+      - code: en
+        option_name: 'Show UPC/ISBN for products'
+      - code: ru
+        option_name: 'Показывать UPC/ISBN для продуктов'
+        
+  - name: show_mnfVendor_field
+    category: XC\SystemFields
+    type: \XLite\Module\XC\SystemFields\View\FormField\Select\ShowInSelector
+    orderby: 100
+    value: 'N'
+    translations:
+      - code: en
+        option_name: 'Show Mnf#/Vendor# for products'
+      - code: ru
+        option_name: 'Показывать Mnf#/Vendor# для продуктов'
+
+XLite\Model\LanguageLabel:
+  - { name: 'UPC/ISBN', translations: [{ code: en, label: 'UPC/ISBN' }] }
+  - { name: 'UPC/ISBN for customers', translations: [{ code: en, label: 'UPC/ISBN' }] }
+  - { name: 'Mnf/Vendor', translations: [{ code: en, label: 'Mnf#/Vendor#' }] }
+  - { name: 'Mnf/Vendor for customers', translations: [{ code: en, label: 'Mnf#/Vendor#' }] }
+  - { name: 'Nowhere', translations: [{ code: en, label: 'Nowhere' }, { code: ru, label: 'Никому' }] }
+  - { name: 'For admins only', translations: [{ code: en, label: 'For admins only' }, { code: ru, label: 'Только администраторам' }] }
+  - { name: 'For admins and customers', translations: [{ code: en, label: 'For admins and customers' }, { code: ru, label: 'Администраторам и клиентам' }] }
+  - { name: 'Default UPC/ISBN', translations: [{ code: en, label: 'Default UPC/ISBN' }, { code: ru, label: 'UPC/ISBN по умолчанию' }] }
+  - { name: 'Default Mnf/Vendor', translations: [{ code: en, label: 'Default Mnf#/Vendor#' }, { code: ru, label: 'Mnf#/Vendor# по умолчанию' }] }
+  - { name: 'Search in UPC/ISBN', translations: [{ code: en, label: 'Search in UPC/ISBN' }, { code: ru, label: 'Искать в UPC/ISBN' }] }
+  - { name: 'Search in Mnf/Vendor', translations: [{ code: en, label: 'Search in Mnf#/Vendor#' }, { code: ru, label: 'Искать в Mnf#/Vendor#' }] }

@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Payment\Method:
+  directives: { addModel: 'XLite\Model\Payment\MethodTranslation' }
+  - { service_name: PayflowLink, translations: [{ code: en, name: 'PayPal Payflow Link', title: 'Credit/Debit card or PayPal', altAdminDescription: 'Accept Visa, MasterCard®, American Express, Discover and PayPal payments on your site by connecting a PayPal-hosted checkout page with your own internet merchant account. Customize the page to look like the rest of your site and make sure customer transactions are secure.' }] }
+  - { service_name: PaypalAdvanced, translations: [{ code: en, name: 'PayPal Payments Advanced', title: 'Credit/Debit card or PayPal', altAdminDescription: 'Accept Visa, MasterCard®, American Express, Discover and PayPal payments securely. With this all-in-one option, customers stay on your site for the entire checkout process. It simplifies PCI compliance and opens the door to more than 100 million active PayPal customers. Requires credit approval (2-3 business days).' }] }
+  - { service_name: PaypalWPS, translations: [{ code: en, name: 'PayPal Payments Standard', title: 'PayPal', altAdminDescription: 'Add a PayPal payment button to your site to accept Visa, MasterCard®, American Express, Discover and PayPal payments securely. When your customers check out, they are redirected to PayPal to pay, then return to your site after they are finished.' }] }
+  - { service_name: ExpressCheckout, translations: [{ code: en, name: 'PayPal Express Checkout', title: 'PayPal Express Checkout', altAdminDescription: 'Create a seamless checkout experience and increase your conversion rate by opening the door to over 100 million active PayPal customers who look for and use this fast, easy, and secure way to pay.' }] }

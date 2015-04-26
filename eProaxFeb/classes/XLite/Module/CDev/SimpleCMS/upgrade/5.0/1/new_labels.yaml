@@ -1,0 +1,18 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Contact us", translations: [{ code: en, label: "Contact us" }] }
+  - { name: "Logo", translations: [{ code: en, label: "Logo" }] }
+  - { name: "Shipping", translations: [{ code: en, label: "Shipping" }] }
+  - { name: "Failed to update page image", translations: [{ code: en, label: "Failed to update the page image" }] }
+  - { name: "Visible for", translations: [{ code: en, label: "Visible for" }] }
+  - { name: "The menu has been updated", translations: [{ code: en, label: "The menu has been updated" }] }
+  - { name: "The menu has been added", translations: [{ code: en, label: "The menu has been added" }] }
+  - { name: "The page has been updated", translations: [{ code: en, label: "The page has been updated" }] }

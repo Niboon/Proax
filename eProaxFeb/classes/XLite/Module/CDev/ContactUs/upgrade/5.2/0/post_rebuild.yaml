@@ -1,0 +1,11 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Notification:
+  - { templatesDirectory: modules/CDev/ContactUs/message, availableForAdmin: false, availableForCustomer: false, enabledForAdmin: true, enabledForCustomer: false, translations: [{ code: en, name: Contact us form submitted (Contact us module), description: 'This notification is sent to the administrator when someone submits a request via the "Contact us" form.', adminSubject: Someone has used the Contact us form, adminText: "" },{ code: ru, name: Заполнена форма для связи с администрацией магазина (модуль Contact us), description: "Данное сообщение используется для оповещения администратора в случае поступления в адрес магазина обращения через форму для связи с администрацией.", adminSubject: Поступило обращение через форму для связи с администрацией магазина, adminText: "" }]}

@@ -1,0 +1,13 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Site map has not been registred in X", translations: [{ code: en, label: "Site map failed to register in {{engine}}." }] }
+  - { name: "Site map successfully registred on X", translations: [{ code: en, label: "Site map successfully registered in {{engine}}." }] }
+  - { name: "XML sitemap URL: X", translations: [{ code: en, label: "XML sitemap URL: <a href=\"{{url}}\">{{url}}</a>" }] }

@@ -1,0 +1,16 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Module\CDev\SimpleCMS\Model\Menu:
+ - { link: '?target=main', type: P, position: 100, translations: [{ code: en, name: Home }]}
+ - { link: 'shipping', type: P, position: 200, translations: [{ code: en, name: Shipping }]}
+ - { link: 'terms-and-conditions', type: P, position: 300, translations: [{ code: en, name: "Our Terms" }]}
+ - { link: '?target=profile', visibleFor: L, type: P, position: 400, translations: [{ code: en, name: "My Account" }]}
+ - { link: '?target=contact_us', type: P, position: 500, translations: [{ code: en, name: "Contact us" }]}
+

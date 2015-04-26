@@ -1,0 +1,34 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2014 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: use_custom_css
+    category: 'XC\ThemeTweaker'
+    type: checkbox
+    orderby: 10
+    value: false
+    translations:
+      - code: en
+        option_name: 'Use custom css'
+  - name: use_custom_js
+    category: 'XC\ThemeTweaker'
+    type: checkbox
+    orderby: 20
+    value: false
+    translations:
+      - code: en
+        option_name: 'Use custom javascript'
+
+XLite\Model\LanguageLabel:
+  - { name: 'Use custom css', translations: [{ code: en, label: 'Use custom css' }] }
+  - { name: 'Use custom js', translations: [{ code: en, label: 'Use custom js' }] }
+  - { name: 'The database stores different version of the custom changes.', translations: [{ code: en, label: 'The database stores different version of the custom changes.' }] }
+  - { name: 'Review it.', translations: [{ code: en, label: 'Review it.' }] }
+  - { name: 'Restore this version', translations: [{ code: en, label: 'Restore this version' }] }
+  - { name: "Your custom file is successfully saved", translations: [{ code: en, label: "Your custom file is successfully saved" }] }

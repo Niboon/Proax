@@ -1,0 +1,43 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: enable_in_stock_only_filter
+    category: 'XC\ProductFilter'
+    type: checkbox
+    orderby: 100
+    value: true
+    translations:
+      - code: en
+        option_name: 'Enable "In stock only" filter'
+  - name: enable_price_range_filter
+    category: 'XC\ProductFilter'
+    type: checkbox
+    orderby: 200
+    value: true
+    translations:
+      - code: en
+        option_name: 'Enable "Price range" filter'
+  - name: enable_attributes_filter
+    category: 'XC\ProductFilter'
+    type: checkbox
+    orderby: 300
+    value: true
+    translations:
+      - code: en
+        option_name: 'Enable "Attributes" filter'
+
+XLite\Model\LanguageLabel:
+  - { name: "Shopping options", translations: [{ code: en, label: "Shopping options" }] }
+  - { name: "Show products", translations: [{ code: en, label: "Show products" }] }
+  - { name: "Reset filter", translations: [{ code: en, label: "Reset filter" }] }
+  - { name: "No products matching your criteria found. Please try again with different parameters.", translations: [{ code: en, label: "No products matching your criteria found. Please try again with different parameters." }] }
+  - { name: "Show all products in this category", translations: [{ code: en, label: "Show all products in this category" }] }
+  - { name: "Price range", translations: [{ code: en, label: "Price range" }] }
+  - { name: "In stock only", translations: [{ code: en, label: "In stock only" }] }

@@ -1,0 +1,13 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "The product SKU#\"X\" is already set as featured for the category", translations: [{ code: en, label: "The product SKU#\"{{SKU}}\" is already set as featured for the category" }] }
+  - { name: "Add featured products for \"X\"", translations: [{ code: en, label: "Add featured products for \"{{category}}\"" }] }
+  - { name: "Add featured products for the front page", translations: [{ code: en, label: "Add featured products for the front page" }] }

@@ -1,0 +1,20 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "All newest products", translations: [{ code: en, label: "All newest products" }] }
+  - { name: "All upcoming products", translations: [{ code: en, label: "All upcoming products" }] }
+  - { name: "Coming soon", translations: [{ code: en, label: "Coming soon" }] }
+  - { name: "Customers who bought this product also bought", translations: [{ code: en, label: "Customers who bought this product also bought" }] }
+  - { name: "Customers who viewed this product bought", translations: [{ code: en, label: "Customers who viewed this product bought" }] }
+  - { name: "Date: newest first", translations: [{ code: en, label: "Date: newest first" }] }
+  - { name: "Date: oldest first", translations: [{ code: en, label: "Date: oldest first" }] }
+  - { name: "New arrivals", translations: [{ code: en, label: "New arrivals" }] }
+  - { name: "New!", translations: [{ code: en, label: "New!" }] }
+  - { name: "Recently viewed", translations: [{ code: en, label: "Recently viewed" }] }

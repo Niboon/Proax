@@ -1,0 +1,12 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Tax rate has been deleted successfully", translations: [{ code: en, label: "Tax rate has been deleted successfully" }] }
+  - { name: "Tax rate has not been deleted successfully", translations: [{ code: en, label: "Tax rate has not been deleted" }] }

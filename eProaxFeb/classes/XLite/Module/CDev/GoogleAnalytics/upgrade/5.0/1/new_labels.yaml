@@ -1,0 +1,15 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Advanced statistics with Google Analytics", translations: [{ code: en, label: "Advanced statistics with Google Analytics" }] }
+  - { name: "Configure the Google Analytics module to view the advanced statistics", translations: [{ code: en, label: "Configure the Google Analytics module to view the advanced statistics" }] }
+  - { name: "A single domain", translations: [{ code: en, label: "A single domain" }] }
+  - { name: "One domain with multiple subdomains", translations: [{ code: en, label: "One domain with multiple subdomains" }] }
+  - { name: "Multiple top-level domains", translations: [{ code: en, label: "Multiple top-level domains" }] }

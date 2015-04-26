@@ -1,0 +1,25 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\Config:
+  - name: skin_name
+    category: Layout
+    type: \XLite\Module\XC\ColorSchemes\View\FormField\Select\SelectSkin
+    orderby: 5
+    value: Default
+    translations:
+      - code: en
+        option_name: Color scheme
+
+XLite\Model\LanguageLabel:
+  - { name: "More templates", translations: [{ code: en, label: "More templates" }] }
+  - { name: Fashion, translations: [{ code: en, label: Fashion }] }
+  - { name: Noblesse, translations: [{ code: en, label: Noblesse }] }
+  - { name: Digital, translations: [{ code: en, label: Digital }] }
+

@@ -1,0 +1,11 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Upgrade data
+#
+# @author    Qualiteam software Ltd <info@x-cart.com>
+# @copyright Copyright (c) 2011-2015 Qualiteam software Ltd <info@x-cart.com>. All rights reserved
+# @license   http://www.x-cart.com/license-agreement.html X-Cart 5 License Agreement
+# @link      http://www.x-cart.com/
+
+XLite\Model\LanguageLabel:
+  - { name: "Menu links help text", translations: [{ code: en, label: "If you want to add an external link, you should specify it with the <b>http://</b> prefix, e.g. <b>http://www.example.com/</b>.<br /><br />If you want to add a link to a page within your store (e.g. the checkout page), you can specify it as <b>cart.php?target=checkout</b> (relative path) or as <b>{{URL}}cart.php?target=checkout</b> (absolute path)." }] }
